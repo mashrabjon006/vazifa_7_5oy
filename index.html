@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="uz">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>api lar</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <div class="container">
+        <h1>Tasodifiy Rasm Ko'rsatish</h1>
+        <button id="showImageButton">Rasmni chiqarish</button>
+        <img id="randomImage" src="" alt="Tasodifiy rasm" />
+    </div>
+    <div class="wraper">
+        <h1>Fakt Generatori</h1>
+        <button id="generateFactButton">Fakt chiqarish</button>
+        <p id="factDisplay"></p>
+    </div>
+    <div class="block">
+        <h1>Valyuta Konvertatori</h1>
+        <input type="number" id="amount" placeholder="Miqdor kiritish" />
+        
+        <select id="fromCurrency">
+            <option value="USD">USD</option>
+            <option value="EUR">EUR</option>
+        </select>
+        
+        <select id="toCurrency">
+            <option value="EUR">EUR</option>
+            <option value="USD">USD</option>
+        </select>
+        
+        <button id="convertButton">Konvertatsiya qilish</button>
+        
+        <p id="resultDisplay"></p>
+    </div>
+    <div class="container">
+        <h1>Tug‘ilgan Kun Ma’nosi</h1>
+        <input type="date" id="birthDate" />
+        <button id="factButton">Faktni chiqarish</button>
+        <p id="factdisp"></p>
+    </div>
+    <script src="app.js"></script>
+</body>
+</html>
